@@ -115,18 +115,18 @@
 
 ### scoring started hook
 
-Добавилось поле insuranceCompanies [] : "ingostrah" | "renaissance"
+Добавилось поле ```insuranceCompanies [] : "ingostrah" | "renaissance"```
 Значения в поле указывают по каким СК будет проходить скоринг.
 
 ### scoring approved hook
 
-Добавилось поле insuranceCompany: "ingostrah" | "renaissance"
+Добавилось поле ```insuranceCompany: "ingostrah" | "renaissance"```
 
 Значение означает по какой СК было принято утвердительное решение страхования
 
 ### scoring rejected hook
 
-Добавилось поле insuranceCompany: "ingostrah" | "renaissance"
+Добавилось поле ```insuranceCompany: "ingostrah" | "renaissance"```
 
 Значение означает по какой СК было принято отрицательное решение страхования
 
@@ -134,7 +134,7 @@
 
 Добавился новый хук, означающий, что по СК в рамках интеграции была ошибка
 
-Поле insuranceCompany: "ingostrah" | "renaissance" означает отношение ошибки к СК
+Поле ```insuranceCompany: "ingostrah" | "renaissance"``` означает отношение ошибки к СК
 Поля errorCode, errorMessage детализируют ошибку.
 
 Для renaissance были добавлены коды ошибок 1601,1602,1603,1604
@@ -147,7 +147,7 @@
 
 ### post payment link 
 
-В метод запроса ссылки на оплату добавлен параметр insuranceCompany: "ingostrah" | "renaissance"
+В метод запроса ссылки на оплату добавлен параметр ```insuranceCompany: "ingostrah" | "renaissance"```
 Означает, для какой СК будет сформирована ссылка на оплату.
 
 Если в запросе передана СК, не прошедшая успешно скоринг, то будет ответ HTTP 403
