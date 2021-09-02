@@ -166,10 +166,6 @@ POST
 {
   "otpState": 0,
   "otp": "код из СМС",
-  "contextDetails": [
-    {
-      "assignee": "string"
-    }
-  ]
+  "contextDetails": "...."
 }
 ```
