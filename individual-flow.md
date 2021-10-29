@@ -35,6 +35,10 @@ blobid -> class
 
 ```/api/user/scoring/{scoringId}/contract```
 
+### Выбор СК для продолжения выпуска полиска
+
+Цель - определить параметр для запроса ```/api/user/scoring/{scoringId}/agreement``` (выполняется в следующем шаге)
+
 ### Создания договора страхования на стороне СК
 
 ```/api/user/scoring/{scoringId}/agreement```
